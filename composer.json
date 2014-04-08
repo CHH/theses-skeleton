@@ -1,0 +1,16 @@
+{
+    "repositories": [
+        { "type": "vcs", "url": "https://github.com/CHH/theses-core" }
+    ],
+    "require": {
+        "chh/theses-core": "dev-master"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "mkdir -p web/assets",
+            "ln -fs $PWD/vendor/chh/theses-core/assets/admin.js web/assets/admin.js",
+            "ln -fs $PWD/vendor/chh/theses-core/assets/admin.css web/assets/admin.css"
+        ]
+    },
+    "minimum-stability": "dev"
+}

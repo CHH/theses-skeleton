@@ -1,0 +1,1 @@
+/Users/chh/Projects/new.christophh.net/vendor/chh/theses-core/assets/admin.js

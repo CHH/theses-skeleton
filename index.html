@@ -1,0 +1,16 @@
+<h1><a href="{{ app.request_stack.currentRequest.basePath }}">{{ site.title }}</a></h1>
+
+<h2>Articles</h2>
+
+{% for post in site.posts %}
+<article>
+    <header>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <div class="post-meta">
+            Posted {{ post.publishedAt | date('M d Y') }}
+        </div>
+    </header>
+    <p>{{ post.excerpt }}</p>
+    <a href="{{ post.url }}">Continue reading</a>
+</article>
+{% endfor %}

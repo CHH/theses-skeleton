@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ page.title }}</title>
+    </head>
+    <body>
+        <main>
+            <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+            <section class="content">
+                {{ page.content|raw }}
+            </section>
+        </main>
+    </body>
+</html>
