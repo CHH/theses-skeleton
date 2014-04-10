@@ -5,6 +5,9 @@
     "require": {
         "chh/theses-core": "dev-master"
     },
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "dev-develop"
+    },
     "scripts": {
         "post-install-cmd": [
             "mkdir -p web/assets",
