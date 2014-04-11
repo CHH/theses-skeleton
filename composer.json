@@ -1,6 +1,8 @@
 {
+    "name": "chh/theses-skeleton",
     "repositories": [
-        { "type": "vcs", "url": "https://github.com/CHH/theses-core" }
+        { "type": "vcs", "url": "https://github.com/CHH/theses-core" },
+        { "type": "vcs", "url": "https://github.com/CHH/ttools" }
     ],
     "require": {
         "chh/theses-core": "dev-master"
